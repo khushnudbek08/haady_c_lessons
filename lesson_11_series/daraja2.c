@@ -10,8 +10,10 @@ int main() {
   int count = 0;
 
   fgets(gap, sizeof(gap), stdin);
+
   //   6. Belgilar sonini hisoblang (null terminatorni hisoblamasdan)
   int length = strlen(gap);
+  
   //   5. char belgi[10] ga matn kiritib, uni teskari chiqarish
   for (int i = length - 1; i >= 0; i--) {
     if (gap[i] == '\n')
